@@ -5,7 +5,6 @@
 require("dotenv").config();
 var express = require("express");
 var app = express();
-app.set("trust proxy", true);
 const IP = require("ip");
 
 // enable CORS (https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
